@@ -27,6 +27,7 @@ theme:
 
 repo_url: https://github.com/willi-z/Syntasia
 edit_uri: https://github.com/willi-z/Syntasia/tree/main/docs
+docs_dir: .
 site_dir: build/wiki
 
 
@@ -38,17 +39,21 @@ nav:
     - Introduction:
         - Home: README.md
         - Getting Started: getting-started.md
-    - Framework: framework/README.md
+    - Framework: 
+        - Introduction: framework/README.md
         - Attributes and Skills: framework/attributes_and_skills.md
         - Checks: framework/checks.md
         - Fighting: framework/fighting.md
         - Progression: framework/processing.md
-    - Lores: lores/README.md
-        - Dreamland: lores/dreamland/README.md
+    - Lores: 
+        - Overview: lores/README.md
+        - Dreamland: 
+            - Introduction: lores/dreamland/README.md
             - Races: lores/dreamland/races.md
             - Geografie: lores/dreamland/geografie.md
             - Items: lores/dreamland/items.md
-            - Adventures: lores/dreamland/adventures/README.md
+            - Adventures: 
+                - Overview: lores/dreamland/adventures/README.md
                 - Royal Madness: lores/dreamland/adventures/royal_madness/README.md
         - Dark Times: lores/dark_times/README.md
     - References:
