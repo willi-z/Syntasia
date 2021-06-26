@@ -5,17 +5,20 @@ theme:
   name: material
   palette:
   - scheme: default
-    primary: teal
-    accent: amber
+    primary: indigo
+    accent: indigo
     toggle:
       icon: material/lightbulb-outline
       name: Switch to light mode
   - scheme: slate
-    primary: teal
-    accent: amber
+    primary: red
+    accent: red
     toggle:
       icon: material/lightbulb
       name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
   - search.suggest
   - search.highlight
@@ -27,13 +30,53 @@ theme:
 
 repo_url: https://github.com/willi-z/Syntasia
 edit_uri: https://github.com/willi-z/Syntasia/tree/main/docs
-docs_dir: .
+docs_dir: "docs"
 site_dir: build/wiki
 
 
 plugins:
     - search
-    - mkdocstrings
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 nav:
     - Introduction:
@@ -43,6 +86,7 @@ nav:
         - Introduction: framework/README.md
         - Attributes and Skills: framework/attributes_and_skills.md
         - Checks: framework/checks.md
+        - Challenges: framework/problem_solving.md
         - Fighting: framework/fighting.md
         - Progression: framework/processing.md
     - Lores: 
@@ -50,7 +94,7 @@ nav:
         - Dreamland: 
             - Introduction: lores/dreamland/README.md
             - Races: lores/dreamland/races.md
-            - Geografie: lores/dreamland/geografie.md
+            - Geografie: lores/dreamland/geography.md
             - Items: lores/dreamland/items.md
             - Adventures: 
                 - Overview: lores/dreamland/adventures/README.md
