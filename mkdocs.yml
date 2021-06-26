@@ -1,5 +1,5 @@
 site_name: Syntasia
-site_url: https://msys-docs.readthedocs.io/en/latest/?badge=latest
+site_url: https://syntasia.readthedocs.io/en/latest/?badge=latest
 
 theme:
   name: material
