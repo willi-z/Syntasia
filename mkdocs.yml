@@ -1,0 +1,56 @@
+site_name: Syntasia
+site_url: https://msys-docs.readthedocs.io/en/latest/?badge=latest
+
+theme:
+  name: material
+  palette:
+  - scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  - scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo.png
+  favicon: img/favicon.png
+  language: en
+
+repo_url: https://github.com/willi-z/Syntasia
+edit_uri: https://github.com/willi-z/Syntasia/tree/main/docs
+site_dir: build/wiki
+
+
+plugins:
+    - search
+    - mkdocstrings
+
+nav:
+    - Introduction:
+        - Home: README.md
+        - Getting Started: getting-started.md
+    - Framework: framework/README.md
+        - Attributes and Skills: framework/attributes_and_skills.md
+        - Checks: framework/checks.md
+        - Fighting: framework/fighting.md
+        - Progression: framework/processing.md
+    - Lores: lores/README.md
+        - Dreamland: lores/dreamland/README.md
+            - Races: lores/dreamland/races.md
+            - Geografie: lores/dreamland/geografie.md
+            - Items: lores/dreamland/items.md
+            - Adventures: lores/dreamland/adventures/README.md
+                - Royal Madness: lores/dreamland/adventures/royal_madness/README.md
+        - Dark Times: lores/dark_times/README.md
+    - References:
+        - Charakter-Editor: references/charackter_editors.md
+    - About: about.md
