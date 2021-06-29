@@ -38,9 +38,9 @@ There are **not used** when:
     ``health = 20 + level + 2 * strength + dexterity``
 
 === "Social"
-    === "Intutition"
+    === "Initiative"
         Are you someone, how acts fast and comes quick to a decission? 
-        Then you should spend some oints in Intuition.
+        Then you should spend some points in Intiative.
     === "Charisma"
         Are you charmfull or mystiros should people love or fear you or just ignore you?
         A high charisma will help you controlling the perception people have about you.
@@ -50,6 +50,8 @@ There are **not used** when:
         Did your charackter should often feel like the brightest in the room? Are puzzles and riddles what your charackter solves for aliving? Then you should give a high score in intelligence
     === "Perception"
         Does your charackter finds things with ease or is one of the few analytical persons, which are not decived by illusionists, then your character should better have a high perception value. 
+
+    ``sanity = 20 + level + 2 * perception + intelligence``
 
 ## Skills
 
