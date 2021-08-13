@@ -1,39 +1,47 @@
 # Races
 
-
-=== "Gods"
+=== "Animals - Dyr"
 
     Gods in general
-    === "oldest Gods"
+    === "Furys - Pels"
         old Gods
-    === "new Gods"
+    === "Repitiles - Flass"
         new Gods
 
-=== "Races of the Light"
+    === "Wet Animals - Vat"
+        new Gods
+
+    === "Birds - Fjar"
+        new Gods
+
+    === "Insekts and Spiders - Ben"
+        trink Blood
+
+=== "Humans - Hominus"
     test
-=== "Races of the Light"
+    === "Mechanical Advancements - Mechanicus"
+        trink Blood
+
+    === "Biological Advancements - Animalus"
+        uses dead Body parts from outher beeings to advane their physical properties
+
+=== "Plants-Tipu"
+    === "Seed - Pura"
     test
-=== "Races of the Dark"
+    === "Hybrid - Puti"
     test
+    === "Tree - Pakiaka"
+    test
+=== "Yurei - Ghosts"
+    === "Krytal Core - Kessho"
+            test
+        === "Stone Chassi - Kesseki"
+            test
+        === "Flesh Chassi - Niku"
+            test
+        === "Metal Chassi - Kinsoku"
+            test
+    === "Shapeshifter - Yasei"
+        controll Puppets switches bodies, generally weaker
 
-=== "Squids"
-
-=== "Humans"
-
-    === "Bio"
-
-    === "Technomants"
-    uses crystals to power machines
-
-
-=== "Drawfs"
-
-=== "Crystalits"
-    if mana is compressed into a piece of stone a crystal will be created
-    if a huge amount of mana is collected it gains consiones.
-
-    young crystlits uses more mana and therefor age faster
-
-
-=== 
-
+        

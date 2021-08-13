@@ -42,8 +42,11 @@ There are **not used** when:
         Are you someone, how acts fast and comes quick to a decission? 
         Then you should spend some points in Intiative.
     === "Charisma"
-        Are you charmfull or mystiros should people love or fear you or just ignore you?
+        Are you charmfull or mysterios should people love or fear you or just ignore you?
         A high charisma will help you controlling the perception people have about you.
+
+    Addiionally, the players Aktionpoints in a figthing round are calculated as:
+    ``Aktionpoints = 3 + 3C Initiative``
 
 === "Mind"
     === "Intelligence"
