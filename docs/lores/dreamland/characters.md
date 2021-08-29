@@ -109,7 +109,7 @@
 
 ## Prof. Dr. Vivien Rosenstock
 > - Gender: female
-> - Rase: Cat-Human
+> - Rase: Tipu
 > - Eyes: yellow
 > - Hair: blue flowers
 > - Skin: 
